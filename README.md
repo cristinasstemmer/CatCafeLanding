@@ -39,7 +39,7 @@ https://github.com/cristinasstemmer/CatCafeLanding/assets/22963571/75747f09-db47
 1. Clone o repositório para o seu computador:
    > git clone https://github.com/cristinasstemmer/CatCafeLanding.git
 
-2. Navegue até o diretório do jogo:
+2. Navegue até o diretório da página:
    > cd cat-cafe-landing-page
    
 3. Abra o arquivo index.html no seu navegador preferido.
