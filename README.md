@@ -26,6 +26,7 @@ Ps.: pets da autora do projeto 😸
 ![reservas](https://github.com/cristinasstemmer/CatCafeLanding/assets/22963571/3b484921-3880-4ce2-8c92-4d874ea597aa)
 
 ### Extra: cursor de patinha no hover
+https://github.com/cristinasstemmer/CatCafeLanding/assets/22963571/75747f09-db47-43da-a568-0836a57c81cd
 
 ## Tecnologias Utilizadas:
 
