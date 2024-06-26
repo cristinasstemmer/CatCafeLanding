@@ -1,10 +1,13 @@
-Cat Café Sete Vidas Landing Page
+# Cat Café Sete Vidas Landing Page
+
 Bem-vindo(a) à landing page do Cat Café! 🐱☕️
 
-Descrição
+## Descrição
+
 Esta é uma landing page para um Cat Café fictício, criada para fins didáticos. Uma experiência única e relaxante para todos os amantes de gatos e café.
 
-Telas
+## Telas
+
 Banner Principal
 Serviços
 Menu
@@ -12,19 +15,19 @@ Mascotes
 Reservas
 Extra: cursor de patinha no hover
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas:
+
 HTML5
 CSS3
 JavaScript
 Bootstrap (opcional, se aplicável)
 
-Instalação e Uso
-Clone este repositório:
+##Instalação e Uso
 
-Clone este repositório:
-git clone https://github.com/seu-usuario/cat-cafe-landing-page.git
+1. Clone o repositório para o seu computador:
+   > git clone https://github.com/cristinasstemmer/CatCafeLanding.git
 
-Navegue até o diretório do projeto:
-cd cat-cafe-landing-page
-
-Abra o arquivo index.html no seu navegador preferido.
+2. Navegue até o diretório do jogo:
+   > cd cat-cafe-landing-page
+   
+3. Abra o arquivo index.html no seu navegador preferido.
