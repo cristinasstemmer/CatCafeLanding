@@ -1,4 +1,4 @@
-# Cat Café Sete Vidas Landing Page
+# Cat Café Sete Vidas - Landing Page
 
 Bem-vindo(a) à landing page do Cat Café! 🐱☕️
 
