@@ -20,6 +20,7 @@ Uma experiência única e relaxante para todos os amantes de gatos e café.
 
 ### Mascotes
 ![mascotes](https://github.com/cristinasstemmer/CatCafeLanding/assets/22963571/911d8275-9cd8-4c4e-bce1-5ac8ab172cfe)
+Ps.: pets da autora do projeto 😸
 
 ### Reservas
 ![reservas](https://github.com/cristinasstemmer/CatCafeLanding/assets/22963571/3b484921-3880-4ce2-8c92-4d874ea597aa)
