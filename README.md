@@ -27,7 +27,7 @@ Uma experiência única e relaxante para todos os amantes de gatos e café.
 - CSS3
 - JavaScript
 
-##Instalação e Uso
+## Instalação e Uso
 
 1. Clone o repositório para o seu computador:
    > git clone https://github.com/cristinasstemmer/CatCafeLanding.git
