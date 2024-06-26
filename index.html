@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sete Vidas Cat Cafe</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+</head>
+<body>
+
+<header>
+    <div class="content-limit">
+        <a href="#">
+            <img src="./img/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="nav inline">
+            <ul class="inline nav-list">
+                <li class="inline"><a href="#services">Serviços</a></li>
+                <li class="inline"><a href="#menu">Menu</a></li>
+                <li class="inline"><a href="#mascotes">Mascotes</a></li>
+                <li class="inline"><a href="#reservas">Reservas</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="capa" class="capa">
+    <div class="capa-content">
+        <h1>Bem-vindo</h1>
+        <h1>ao Sete Vidas</h1>
+        <p>O Cat Café perfeito para aproveitar sua vida na companhia <br> do melhor café e amigos felinos</p>
+        <a href="#reservas" class="book-button">RESERVE AGORA</a>
+    </div>
+</section>
+
+<section id="services" class="servicos">
+    <div class="content">
+        <h1>O QUE SERVIMOS</h1>
+        <div class="services">
+            <div class="service-item">
+                <img src="./img/brinque.jpg" alt="Brinque com os gatos">
+                <p>Diversão com os gatos</p>
+            </div>
+            <div class="service-item">
+                <img src="./img/menudelicioso.png" alt="Menu Delicioso">
+                <p>Um menu delicioso</p>
+            </div>
+            <div class="service-item">
+                <img src="./img/adote.jpg" alt="Adote um felino">
+                <p>Felinos para adoção</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="menu" class="menu">
+    <h1>Menu</h1>
+    <h2>Cardápio Miautástico</h2>
+    <div class="menu-content">
+        <div class="menu-column">
+            <div class="menu-item">
+                <h3>Capuccino Clássico Gatuno</h3>
+                <p>A mistura purr-feita</p>
+                <p class="price">R$14,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte Paraíso</h3>
+                <p>Deleite tropical com leite</p>
+                <p class="price">R$18,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Caramel Macchiato Gatinho</h3>
+                <p>Elegância com infusão de caramelo</p>
+                <p class="price">R$20,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chá Rabo Abanando</h3>
+                <p>Hora do chá com um ronronar</p>
+                <p class="price">R$10,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Muffins Miaulícia</h3>
+                <p>Delícias assadas na hora</p>
+                <p class="price">R$9,99 cada</p>
+            </div>
+        </div>
+        <div class="menu-column">
+            <div class="menu-item">
+                <h3>Croissant Gatuno</h3>
+                <p>Delicioso e crocante</p>
+                <p class="price">R$14,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Waffles Bigodudos</h3>
+                <p>Deleite de waffle fofinho</p>
+                <p class="price">R$22,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Biscoitos de Catnip</h3>
+                <p>Irresistíveis guloseimas de catnip</p>
+                <p class="price">R$7,99 cada</p>
+            </div>
+            <div class="menu-item">
+                <h3>Frittata Felina</h3>
+                <p>Uma delícia feita de ovo</p>
+                <p class="price">R$24,99</p>
+            </div>
+            <div class="menu-item">
+                <h3>Parfait Pawsome</h3>
+                <p>Felicidade com frutas vermelhas</p>
+                <p class="price">R$16,99</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mascotes" class="mascotes">
+    <div class="content">
+        <h2>as Sete Vidas felinas do Cat Cafe</h2>
+        <h1>Nossas Mascotes</h1>
+        <div class="cats">
+            <div class="cat-item">
+                <img src="./img/mo.png" alt="Mô">
+                <p>Mô</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/joaquim.jpg" alt="Joaquim">
+                <p>Joaquim</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/bebe.jpg" alt="Bebê">
+                <p>Bebê</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/chato.png" alt="Chato">
+                <p>Chato(☆)</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/bia.jpg" alt="Bia">
+                <p>Bia</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/sassa.jpg" alt="Sassá">
+                <p>Sassá</p>
+            </div>
+            <div class="cat-item">
+                <img src="./img/peludinho.jpg" alt="Peludinho">
+                <p>Peludinho(☆)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reservas" class="reservas">
+    <div class="reservations-content">
+        <h2>Reservas</h2>
+        <form id="reservation-form" action="reserve_table.php" method="post" onsubmit="return showThankYouMessage()">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="number">Número de Pessoas:</label>
+            <input type="number" id="number" name="number" required>
+            
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="text">
+                <p>Miauvenida Ronronar, 123 - Bairro Miau - Gatolândia, Brasil</p>
+            </div>
+            <p>© 2024 Sete Vidas Cat Cafe. </p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

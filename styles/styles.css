@@ -1,0 +1,357 @@
+/* Estilos gerais */
+@font-face {
+    font-family: 'Titulos';
+    src: url('/MODULO-03/landing-page/fonts/AnyConv.com__Phatkidfree-K70R7.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Textos';
+    src: url('/MODULO-03/landing-page/fonts/Nunito-Variable.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Titulos', sans-serif;
+}
+
+h2, h3, p, nav {
+    font-family: 'Textos', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FEEFD6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #ff6347;
+    cursor: url("/MODULO-03/landing-page/img/patinha.png"), auto;
+}
+
+
+/* Estilos da seção de capa */
+.capa {
+    background-image: url('../img/capa.png');
+    background-size: cover;
+    background-position: center;
+    color: #4e342e;
+    height: calc(100vh - 60px); 
+    display: table;
+    width: 100%;
+    text-align: right; 
+    padding-right: 50px; 
+    margin-top: 100px; 
+}
+
+.capa-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.capa h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.capa p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.capa .book-button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Textos', sans-serif;
+}
+
+.capa .book-button:hover {
+    background-color: #e55342;
+    cursor: url("/MODULO-03/landing-page/img/patinha.png"), auto;
+
+}
+
+/* Estilos da seção de serviços */
+.servicos {
+    background-color: #C0A78C;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servicos .content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.servicos h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.servicos .services {
+    text-align: center;
+}
+
+.servicos .service-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.servicos .service-item img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.servicos .service-item p {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilos da seção de menu */
+.menu {
+    background-color: #FEEFD6;
+    color: #000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu-content {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.menu h1 {
+    margin-bottom: 0;
+}
+
+.menu h2 {
+    margin-top: 0;
+    font-size: 48px;
+}
+
+.menu-columns {
+    display: table;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.menu-column {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: #FF9900;
+}
+
+/* Estilos da seção de mascotes */
+.mascotes {
+    background-color: #C0A78C;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.mascotes .content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mascotes h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mascotes h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.mascotes .cats {
+    margin-top: 30px;
+}
+
+.mascotes .row {
+    margin-bottom: 20px;
+}
+
+.mascotes .cat-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%; 
+    margin: 0 1.5%; 
+    text-align: center;
+}
+
+.mascotes .cat-item img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.mascotes .cat-item p {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilos da seção de reservas */
+.reservas {
+    background-image: url('../img/reservar.png');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.reservations-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    text-align: left;
+    color: #5d4037;
+    font-family: 'Textos', sans-serif;
+}
+
+form input,
+form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #8d6e63;
+    border-radius: 5px;
+    width: calc(100% - 12px); 
+    box-sizing: border-box;
+}
+
+form button {
+    background: #ffab91;
+    color: #4e342e;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: background 0.3s;
+    font-family: 'Textos', sans-serif;
+}
+
+form button:hover {
+    background: #bcaaa4;
+    cursor: url("/MODULO-03/landing-page/img/patinha.png"), auto;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #705941;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .address {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
